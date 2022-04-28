@@ -1,0 +1,38 @@
+{
+  "name": "pixel_art",
+  "version": "0.0.1",
+  "description": "Projeto para testar conventional commits e ferramentas para a essa padronização",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "commit": "git-cz"
+  },
+  "keywords": [
+    "conventional",
+    "commits",
+    "semantic",
+    "release",
+    "lint",
+    "versioning"
+  ],
+  "author": "Asafe Dainez",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.14.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^7.0.4",
+    "jest": "^28.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
