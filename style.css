@@ -1,0 +1,43 @@
+.pixel {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  display: inline-grid;
+  background-color: white;
+}
+
+.color {
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 100%;
+  display: inline-grid;
+}
+
+.grid-pallet {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-column-gap: 10px;
+}
+
+.config-board {
+  margin-top: 50px;
+  margin-left: 40%;
+  margin-right: auto;
+}
+
+#pixel-board {
+  margin-top: 50px;
+  justify-content: center;
+  display: grid;
+}
+
+#clear-board {
+  margin-top: 10px;
+  margin-left: 45%;
+}
+
+#board-size {
+  width: 150px;
+}
